@@ -1,0 +1,492 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+h2 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+p {
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+header {
+  width: 100%;
+  min-height: 40vh;
+  background-image: url(./images/bg-header-desktop.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.head-logo {
+  position: relative;
+  transform: translate(550%, 97%);
+}
+.home {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.home h2 {
+  padding: 1rem 0rem;
+}
+.home p {
+  padding-bottom: 2rem;
+  line-height: 170%;
+}
+.btn-1 {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+}
+.btn-2 {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+}
+.btn-1,
+.btn-2 {
+  color: white;
+  border-radius: 28px;
+  padding: 15px 70px;
+  cursor: pointer;
+  outline: none;
+}
+.btn-1:hover {
+  background-color: #5dccb9;
+}
+.btn-2:hover {
+  background-color: #8995ff;
+}
+.home-text {
+  padding-top: 5rem;
+}
+.benefits {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.ben-img{
+  width: 60%;
+}
+.image{
+  width: 95%;
+}
+.image img {
+  width: 100%;
+  position: relative;
+  top: 0%;
+  transform: translateX(-6%);
+}
+.ben-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+.text1  {
+  line-height: 190%;
+}
+.text2  {
+  line-height: 190%;
+  margin: 10% 0%;
+}
+.text3  {
+  line-height: 190%;
+}
+.features {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.features-text h2 {
+  padding: 1.8rem 0rem;
+  font-size: 2rem;
+}
+.features-text p {
+  padding-bottom: 1.5rem;
+}
+.feature-image {
+  margin-top: 10%;
+  width: 80%;
+}
+.feature-image img {
+  width: 100%;
+}
+.workflow {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.workflow-explain {
+  text-align: center;
+}
+.workflow-explain p {
+  padding: 1rem;
+}
+.workflow-benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.allbenefits1, .allbenefits2, .allbenefits3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0rem;
+  line-height: 200%;
+}
+.allbenefits1 h2, .allbenefits2 h2, .allbenefits3 h2 {
+  padding: 1rem 0rem;
+}
+.allbenefits2 h2 {
+  padding: 1.2rem;
+}
+.allbenefits1 p {
+  line-height: 170%;
+}
+.allbenefits1 {
+ padding: 0rem 1.8rem;
+}
+.allbenefits3 {
+  padding-left: 1rem;
+}
+.partners {
+  padding-top: 5rem;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.final {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10rem;
+}
+.final h2 {
+  padding: 1rem;
+}
+.final p {
+  padding-bottom: 2.5rem;
+  line-height: 170%;
+}
+footer {
+  width: 100%;
+  background-color: #f5f6f8;
+}
+.conatiner {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 15vh;
+  position: relative;
+}
+.icon {
+  flex: 1;
+}
+.icon img {
+  width: 15%;
+}
+.first-list, .second-list, .third-list {
+  flex: 1;
+}
+.first-list ul, .second-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first-list li, .second-list li {
+  
+  padding: 0.5rem 0rem;
+}
+
+.third-list a {
+  list-style: none;
+  position: absolute;
+  transform: translateY(-122%);
+}
+.conatiner a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+.conatiner a:hover {
+  color: hsl(171, 66%, 44%);
+}
+.social-media {
+  flex: 1;
+}
+.two {
+  position: relative;
+  transform: translateX(656%);
+}
+.one:hover {
+  fill: hsl(171, 66%, 44%);
+} 
+@media only screen and (max-width: 1440px) {
+  .head-logo {
+    transform: translate(524%, 147%);
+  }
+
+}
+@media only screen and (max-width: 1367px) {
+  .head-logo {
+    transform: translate(487%, 103%);
+}
+.allbenefits1 h2, .allbenefits2 h2, .allbenefits3 h2 {
+  font-size: 17px;
+}
+.allbenefits1 p, .allbenefits2 p, .allbenefits3 p {
+  font-size: 14px;
+}
+}
+@media only screen and (max-width: 1024px) {
+  .head-logo {
+    transform: translate(372%, 225%);
+  }
+  .btn-1, .btn-2 {
+      margin: 5px 0px; 
+      
+  }
+  .home p {
+      font-size: 1.2rem;
+      padding: 2.8rem 0rem;
+  }
+  .text3 p {
+    font-size: 15px;
+  }
+  .features-text p {
+    font-size: 13px;
+}
+.allbenefits1 h2, .allbenefits2 h2, .allbenefits3 h2 {
+  font-size: 17px;
+}
+.allbenefits1 p, .allbenefits2 p, .allbenefits3 p {
+  font-size: 12px;
+}
+.final p {
+  font-size: 13px;
+}
+.icon img {
+  width: 34%;
+}
+.two {
+  transform: translateX(297%)
+}
+}
+@media only screen and (max-width: 768px) {
+  .head-logo {
+    transform: translate(269%, 171%);
+  }
+  .home h2 {
+    font-size: 1.5rem;
+  }
+  .home p {
+    padding: 1.8rem 0rem;
+    font-size: 1rem;
+}
+.ben-text h2{
+ font-size: 1.4rem;
+}
+.text1, .text2, .text3 p {
+  font-size: 11px;
+}
+.features-text h2 {
+  padding: 1.8rem 0rem;
+  font-size: 1.8rem;
+}
+.features-text p {
+  font-size: 10px;
+}
+.allbenefits1 h2, .allbenefits2 h2, .allbenefits3 h2 {
+  font-size: 17px;
+}
+.allbenefits1 p, .allbenefits2 p, .allbenefits3 p {
+  font-size: 14px;
+}
+.partners{width: 100%;}
+.final h2 {
+  font-size: 25px;
+}
+.final p{
+  font-size: 10px;
+}
+}
+@media only screen and (max-width: 415px) {
+  header {
+    background-image: url(./images/bg-header-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .home {
+    width: 100%;
+}
+  .head-logo {
+    transform: translate(115%, 103%);
+  }
+  .home h2 {
+    padding: 2rem 0rem;
+}
+.home p {
+  padding: 1.3rem 3px;
+  font-size: 18px;
+}
+.benefits {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 100%;
+}
+.ben-text {
+  width: 100%;
+}
+.text1, .text2, .text3 {
+  text-align: center;
+  padding: 2rem 0rem;
+  margin: 0;
+  line-height: 180%;
+  font-size: 15px;
+}
+.features {
+  width: 91%; 
+}
+.feature-image {
+  margin-top: 10%;
+  width: 90%;
+}
+.workflow {
+  width: 100%;
+}
+.workflow-benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 11%;
+}
+.allbenefits1 p {
+  font-size: 17px;
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.partners img {
+  padding: 2rem 0rem;
+}
+.final {
+  width: 87%;
+}
+.final h2 {
+  font-size: 23px;
+}
+.final P{
+  font-size: 17px;
+}
+.conatiner, .first-list, .second-list, .third-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conatiner {
+  padding-top: 1rem;
+  text-align: center;
+  min-height: 9vh;
+}
+.second-list li {
+
+}
+.third-list a {
+  position: relative;
+  transform: translateY(0%);
+}
+
+.two{
+  transform: translateX(0%);
+}
+}
+@media only screen and (max-width: 376px) {
+  .head-logo {
+    transform: translate(100%, 92%);
+}
+.home h2 {
+  font-size: 35px;
+}
+.home p {
+  padding: 1.3rem 0.3rem;
+  font-size: 19px;
+}
+.home-text {
+  padding-top: 5rem;
+  width: 94%;
+  text-align: center;
+}
+.home-text p {
+  padding: 1.3rem 3px;
+  font-size: 17px;
+}
+.text3 {
+  font-size: 14px;
+}
+.features {
+  width: 95%;
+}
+.features-text p {
+  font-size: 16px;
+}
+.workflow {
+  width: 92%;
+}
+.allbenefits1 p {
+  font-size: 14px;
+}
+.allbenefits2 p {
+  font-size: 14px;
+}
+.allbenefits3 p {
+  font-size: 14px;
+}
+.final {
+  width: 97%;
+}
+.final h2{
+  font-size: 27px;
+}
+}
