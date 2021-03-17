@@ -29,10 +29,13 @@ header {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 .head-logo {
-  position: relative;
-  transform: translate(550%, 97%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .home {
   width: 50%;
@@ -184,10 +187,10 @@ header {
   align-items: center;
 }
 .final {
-  width: 50%;
+  width: 55%;
   margin: auto;
   text-align: center;
-  padding-top: 10rem;
+  padding: 5rem 0rem;
 }
 .final h2 {
   padding: 1rem;
@@ -259,7 +262,9 @@ footer {
 }
 @media only screen and (max-width: 1367px) {
   .head-logo {
-    transform: translate(487%, 103%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .allbenefits1 h2, .allbenefits2 h2, .allbenefits3 h2 {
   font-size: 17px;
@@ -270,8 +275,10 @@ footer {
 }
 @media only screen and (max-width: 1024px) {
   .head-logo {
-    transform: translate(372%, 225%);
-  }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
   .btn-1, .btn-2 {
       margin: 5px 0px; 
       
@@ -304,8 +311,10 @@ footer {
 }
 @media only screen and (max-width: 768px) {
   .head-logo {
-    transform: translate(269%, 171%);
-  }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
   .home h2 {
     font-size: 1.5rem;
   }
@@ -350,9 +359,11 @@ footer {
   .home {
     width: 100%;
 }
-  .head-logo {
-    transform: translate(115%, 103%);
-  }
+.head-logo {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
   .home h2 {
     padding: 2rem 0rem;
 }
@@ -444,7 +455,9 @@ footer {
 }
 @media only screen and (max-width: 376px) {
   .head-logo {
-    transform: translate(100%, 92%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .home h2 {
   font-size: 35px;
